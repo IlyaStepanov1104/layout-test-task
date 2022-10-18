@@ -1,0 +1,35 @@
+html{
+    background-color: #E5E5E5;
+}
+
+section{
+    box-sizing: border-box;
+    width: 90vw;
+    height: 100vw;
+    margin:  calc(5vw - 1px);
+    border: 1px solid #828282;
+    border-radius: 5vw;
+}
+
+.image{
+    height: 60vw;
+    width: 90vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5vw 5vw 0 0;
+}
+
+.new{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.5vw;
+    line-height: 8vw;
+    color: #3E3E3E;
+
+    position: absolute;
+    top: 10vw;
+
+    background: #FED74B;
+    padding: 1vw 3vw;
+}
