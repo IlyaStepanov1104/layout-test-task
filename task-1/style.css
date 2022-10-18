@@ -3,6 +3,8 @@ html{
     background-color: #fff;
 }
 
+p{margin: 0;}
+
 section{
     box-sizing: border-box;
     width: 90vw;
@@ -41,19 +43,19 @@ section{
 }
 
 /* TIME */
-.time{
+.length{
     display: inline-block;
     height: 4vw;
     margin: 0;
     width: 100%;
 
 }
-.time p{
+.length p{
     margin: 0 0 0 6.5vw;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 4vw;
+    font-size: 3vw;
     line-height: 4vw;
 
     color: #9E9E9E;
@@ -74,3 +76,32 @@ section{
 
     color: #404040;
 }
+
+
+/* DESCRIPTION */
+.description{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.8vw;
+    line-height: 5vw;
+}
+ul{
+    padding-left: 6vw;
+    list-style: none;
+}
+li{
+    margin-top: 3vw;
+    display: inline-block;
+    width: 88vw;
+    word-wrap: break-word;
+}
+li img{
+    float: left;
+    width: 3.5vw;
+    height: 3.5vw;
+    margin-top: 0.75vw;
+    margin-left: -6vw;
+}
+
+/*  */
