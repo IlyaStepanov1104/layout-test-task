@@ -1,16 +1,17 @@
+/*  MAIN  */
 html{
-    background-color: #E5E5E5;
+    background-color: #fff;
 }
 
 section{
     box-sizing: border-box;
     width: 90vw;
-    height: 100vw;
     margin:  calc(5vw - 1px);
     border: 1px solid #828282;
     border-radius: 5vw;
 }
 
+/* IMAGE */
 .image{
     height: 60vw;
     width: 90vw;
@@ -18,7 +19,6 @@ section{
     background-size: cover;
     border-radius: 5vw 5vw 0 0;
 }
-
 .new{
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
@@ -32,4 +32,45 @@ section{
 
     background: #FED74B;
     padding: 1vw 3vw;
+}
+
+/* CONTENT */
+.content{
+    width: 90vw;
+    padding: 3vw;
+}
+
+/* TIME */
+.time{
+    display: inline-block;
+    height: 4vw;
+    margin: 0;
+    width: 100%;
+
+}
+.time p{
+    margin: 0 0 0 6.5vw;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 4vw;
+    line-height: 4vw;
+
+    color: #9E9E9E;
+}
+.clock{
+    height: 4vw;
+    float: left;
+}
+
+/* TITLE */
+.title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3.8vw;
+    line-height: 5vw;
+    margin-top: 3vw;
+
+    color: #404040;
 }
