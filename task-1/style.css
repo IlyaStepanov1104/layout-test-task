@@ -38,7 +38,7 @@ section{
 
 /* CONTENT */
 .content{
-    width: 90vw;
+    width: 84vw;
     padding: 3vw;
 }
 
@@ -93,8 +93,6 @@ ul{
 li{
     margin-top: 3vw;
     display: inline-block;
-    width: 88vw;
-    word-wrap: break-word;
 }
 li img{
     float: left;
@@ -104,4 +102,20 @@ li img{
     margin-left: -6vw;
 }
 
-/*  */
+/* TIME */
+.times{
+    margin: 0;
+    padding: 0 4vw 0 6vw;
+    width: 74vw;
+    display: flex;
+    justify-content: space-between;
+}
+.time{
+    background-color: #D9E8FF;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 3.8vw;
+    padding: 1vw 3vw;
+    border-radius: 4vw;
+}
